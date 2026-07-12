@@ -1,0 +1,21 @@
+@startuml vehicle-configurator-containers
+skinparam shadowing false
+skinparam roundcorner 12
+skinparam defaultFontName Helvetica
+skinparam ArrowColor #0049B0
+skinparam RectangleBorderColor #0049B0
+skinparam DatabaseBorderColor #0049B0
+
+actor "Browser" as user #FFFFFF
+
+rectangle "Vehicle Configurator" #DDF3FE {
+  component "Frontend\nVue 3 · Vite · Three.js\nnginx + SPA" as fe #FFFFFF
+  component "Backend\nJava 25 · Spring Boot 4\nREST API /api/*" as be #FFFFFF
+  database "Database\nMySQL 8.4\nconfigurations · orders" as db #FFFFFF
+}
+
+user -down-> fe : HTTPS
+fe -right-> be : HTTP /api/*
+be -right-> db : JDBC :3306
+
+@enduml
