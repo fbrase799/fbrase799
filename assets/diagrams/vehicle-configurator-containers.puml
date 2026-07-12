@@ -10,12 +10,12 @@ actor "Browser" as user #FFFFFF
 
 rectangle "Vehicle Configurator" #DDF3FE {
   component "Frontend\nVue 3 · Vite · Three.js\nnginx + SPA" as fe #FFFFFF
-  component "Backend\nJava 25 · Spring Boot 4\nREST API /api/*" as be #FFFFFF
-  database "Database\nMySQL 8.4\nconfigurations · orders" as db #FFFFFF
+  frame "Backend\nJava 25 · Spring Boot 4\nREST API /api/*" as be #FFFFFF {
+    database "SQLite\ncatalog · configurations · orders" as db #FFFFFF
+  }
 }
 
 user -down-> fe : HTTPS
 fe -right-> be : HTTP /api/*
-be -right-> db : JDBC :3306
 
 @enduml
