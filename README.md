@@ -8,43 +8,14 @@ I enjoy translating complex requirements into maintainable software architecture
 
 ## Areas of Expertise
 
-### Software Architecture
-- Software Architecture
-- System Design
-- Distributed Systems
-- Embedded Architectures
-- Cloud-Connected Systems
-- Technical Leadership
-
-### Embedded Software
-- Modern C++ (C++17/20/23)
-- C
-- Rust
-- Embedded Linux
-- Yocto
-- Zephyr RTOS
-- Bare-Metal Development
-- CAN
-
-### Backend & Connectivity
-- Python / Go / Java
-- Spring Boot
-- REST APIs
-- GraphQL
-- MQTT
-- WebSockets
-- Docker
-
-### User Interfaces
-- Qt / QML
-- Flutter
-- GTK4
-- React
-
-### AI-assisted Development
-- GitHub Copilot
-- Cursor
-- Claude Code
+| | |
+|---|---|
+| **AI Engineering** | Spec-Driven Design · LangChain · LangGraph · RAG · Python · GitHub Copilot · Cursor · Claude Code |
+| **Software Architecture** | System Design · Distributed Systems · Embedded Architectures · Cloud-Connected Systems · Technical Leadership |
+| **Embedded Software** | Modern C++ (C++17/20/23) · C · Rust · Embedded Linux · Yocto · Zephyr RTOS · Bare-Metal · CAN |
+| **Backend & Connectivity** | Java · Go · Spring Boot · REST · GraphQL · MQTT · WebSockets |
+| **Cloud / Infrastructure** | Azure · Terraform · Docker · Kubernetes |
+| **User Interfaces** | Qt / QML · Flutter · GTK4 · React |
 
 ---
 
