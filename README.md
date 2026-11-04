@@ -23,17 +23,49 @@ I enjoy translating complex requirements into maintainable software architecture
 
 This GitHub portfolio demonstrates software architecture through practical engineering showcases. Each showcase has its own page with stack, architecture, and links.
 
-### [Vehicle Configurator](./showcase_vehicle_configurator.md)
+<table width="100%">
+  <tr bgcolor="#eaeef2">
+    <td colspan="2" bgcolor="#eaeef2">
+      <p align="center"><strong>Vehicle Configurator</strong></p>
+    </td>
+  </tr>
+  <tr bgcolor="#ffffff">
+    <td width="55%" valign="top" bgcolor="#ffffff">
+      <a href="https://frontend.thankfulcliff-8b06d191.westeurope.azurecontainerapps.io/">Live demo</a>
+      ·
+      <a href="./showcase_vehicle_configurator.md">Showcase details</a>
+      ·
+      <a href="https://github.com/fbrase799/vehicle_configurator">Source</a>
+      <p>Vehicle configuration application with a live 3D preview — options update the car and price in real time.</p>
+      <p><strong>Tech stack:</strong> Vue 3 · Three.js · <strong>Java 25</strong> · <strong>Spring Boot 4</strong> · SQLite · Docker · Azure Container Apps</p>
+    </td>
+    <td width="45%" valign="top" align="center" bgcolor="#ffffff">
+      <img src="https://raw.githubusercontent.com/fbrase799/vehicle_configurator/main/docs/screenshots/vehicle_configurator_01_ferrari.png" width="360" alt="Vehicle Configurator screenshot">
+    </td>
+  </tr>
+</table>
 
-**SPA + REST backend** with embedded **SQLite** — Vue 3 / Three.js frontend, **Java 25** + **Spring Boot 4**, Docker + Azure Container Apps.
-
-**[Live demo](https://frontend.thankfulcliff-8b06d191.westeurope.azurecontainerapps.io/)** · [Showcase details](./showcase_vehicle_configurator.md) · [Source](https://github.com/fbrase799/vehicle_configurator)
-
-### [Engineering Knowledge Assistant](./showcase_engineering_knowledge_assistant.md)
-
-Hybrid engineering Q&A — local **RAG** (FAISS) + web search + **LangGraph** orchestration, React UI with SSE timeline, Docker + Azure Container Apps.
-
-**[Live demo](https://frontend.livelyfield-9bf75542.westeurope.azurecontainerapps.io/)** · [Showcase details](./showcase_engineering_knowledge_assistant.md) · [Source](https://github.com/fbrase799/engineering_knowledge_assistant)
+<table width="100%">
+  <tr bgcolor="#eaeef2">
+    <td colspan="2" bgcolor="#eaeef2">
+      <p align="center"><strong>Engineering Knowledge Assistant</strong></p>
+    </td>
+  </tr>
+  <tr bgcolor="#ffffff">
+    <td width="55%" valign="top" bgcolor="#ffffff">
+      <a href="https://frontend.livelyfield-9bf75542.westeurope.azurecontainerapps.io/">Live demo</a>
+      ·
+      <a href="./showcase_engineering_knowledge_assistant.md">Showcase details</a>
+      ·
+      <a href="https://github.com/fbrase799/engineering_knowledge_assistant">Source</a>
+      <p>Hybrid engineering Q&amp;A — local <strong>RAG</strong> (FAISS) + web search + <strong>LangGraph</strong> orchestration, React UI with SSE timeline.</p>
+      <p><strong>Tech stack:</strong> React · FastAPI · LangGraph · LangChain · FAISS · Azure OpenAI · Docker · Azure Container Apps</p>
+    </td>
+    <td width="45%" valign="top" align="center" bgcolor="#ffffff">
+      <img src="https://raw.githubusercontent.com/fbrase799/engineering_knowledge_assistant/main/docs/screenshots/engineering_knowledge_01_result.png" width="360" alt="Engineering Knowledge Assistant screenshot">
+    </td>
+  </tr>
+</table>
 
 ---
 

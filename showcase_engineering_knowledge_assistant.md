@@ -4,6 +4,25 @@ Hybrid engineering Q&A that **compares a curated document corpus with current pu
 
 **[Live demo](https://frontend.livelyfield-9bf75542.westeurope.azurecontainerapps.io/)** · [Architecture](https://github.com/fbrase799/engineering_knowledge_assistant/blob/main/docs/architecture.md) · [Product overview](https://github.com/fbrase799/engineering_knowledge_assistant/blob/main/docs/product-overview.md) · [Source code](https://github.com/fbrase799/engineering_knowledge_assistant)
 
+<table>
+  <tr>
+    <th align="center">Result</th>
+    <th align="center">LangGraph</th>
+    <th align="center">RAG documents</th>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <img src="https://raw.githubusercontent.com/fbrase799/engineering_knowledge_assistant/main/docs/screenshots/engineering_knowledge_01_result.png" width="300" height="200" alt="Hybrid Q&A result">
+    </td>
+    <td align="center" width="33%">
+      <img src="https://raw.githubusercontent.com/fbrase799/engineering_knowledge_assistant/main/docs/screenshots/engineering_knowledge_02_langgraph.png" width="300" height="200" alt="LangGraph execution">
+    </td>
+    <td align="center" width="33%">
+      <img src="https://raw.githubusercontent.com/fbrase799/engineering_knowledge_assistant/main/docs/screenshots/engineering_knowledge_03_rag_documents.png" width="300" height="200" alt="RAG document corpus">
+    </td>
+  </tr>
+</table>
+
 ## Tech stack
 
 | Layer | Technologies | Highlights |
