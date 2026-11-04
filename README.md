@@ -21,53 +21,23 @@ I enjoy translating complex requirements into maintainable software architecture
 
 ## Engineering Showcases
 
-This GitHub portfolio demonstrates software architecture through practical engineering showcases.
+This GitHub portfolio demonstrates software architecture through practical engineering showcases. Each showcase has its own page with stack, architecture, and links.
 
-### [Vehicle Configurator](https://github.com/fbrase799/vehicle_configurator)
+### [Vehicle Configurator](./showcase_vehicle_configurator.md)
 
-**SPA + REST backend** with embedded **SQLite** — two runtime containers, same images locally and in Azure.
+**SPA + REST backend** with embedded **SQLite** — Vue 3 / Three.js frontend, **Java 25** + **Spring Boot 4**, Docker + Azure Container Apps.
 
-**[Live demo](https://frontend.thankfulcliff-8b06d191.westeurope.azurecontainerapps.io/)** · [Architecture](https://github.com/fbrase799/vehicle_configurator/blob/main/ARCHITECTURE.md) · [Source code](https://github.com/fbrase799/vehicle_configurator)
+**[Live demo](https://frontend.thankfulcliff-8b06d191.westeurope.azurecontainerapps.io/)** · [Showcase details](./showcase_vehicle_configurator.md) · [Source](https://github.com/fbrase799/vehicle_configurator)
 
-<table>
-  <tr>
-    <th align="center">Ferrari</th>
-    <th align="center">Overview</th>
-    <th align="center">Purchase</th>
-  </tr>
-  <tr>
-    <td align="center" width="33%">
-      <img src="https://raw.githubusercontent.com/fbrase799/vehicle_configurator/main/docs/screenshots/vehicle_configurator_01_ferrari.png" width="300" height="200" alt="Ferrari configurator">
-    </td>
-    <td align="center" width="33%">
-      <img src="https://raw.githubusercontent.com/fbrase799/vehicle_configurator/main/docs/screenshots/vehicle_configurator_05_purchase.png" width="300" height="200" alt="Configurator overview">
-    </td>
-    <td align="center" width="33%">
-      <img src="https://raw.githubusercontent.com/fbrase799/vehicle_configurator/main/docs/screenshots/vehicle_configurator_06_summary.png" width="300" height="200" alt="Purchase flow">
-    </td>
-  </tr>
-</table>
+### [Engineering Knowledge Assistant](./showcase_engineering_knowledge_assistant.md)
 
-**Tech stack**
+Hybrid engineering Q&A — local **RAG** (FAISS) + web search + **LangGraph** orchestration, React UI with SSE timeline, Docker + Azure Container Apps.
 
-| Layer | Technologies | Highlights |
-|-------|--------------|------------|
-| **Frontend** | Vue 3, Vite, Three.js | Multi-step configurator, live **3D car preview** (WebGL), real-time price updates, shareable configuration URLs |
-| **Backend** | **Java 25**, **Spring Boot 4**, JPA/Hibernate | REST API under `/api/*`, server-side price calculation, UUID-based configurations, transactional order submission |
-| **Database** | SQLite (embedded in backend) | Relational catalog, configurations and orders; schema + seed in SQL, applied on first start |
-| **Infrastructure** | Docker Compose, Azure Container Apps, GitHub Actions | Two containers (frontend + backend); always-warm cloud demo; CI/CD with OIDC federation |
-
-**Architecture — frontend, backend + embedded database**
-
-<p align="center">
-  <img src="./assets/diagrams/vehicle-configurator-containers.svg" alt="Vehicle Configurator: Browser → Frontend → Backend with embedded SQLite" width="720">
-</p>
-
-<p align="center"><sub>Source: <a href="./assets/diagrams/vehicle-configurator-containers.puml">PlantUML</a></sub></p>
+**[Live demo](https://frontend.livelyfield-9bf75542.westeurope.azurecontainerapps.io/)** · [Showcase details](./showcase_engineering_knowledge_assistant.md) · [Source](https://github.com/fbrase799/engineering_knowledge_assistant)
 
 ---
 
-**Upcoming showcases:** Embedded Platform · Cloud-Connected Systems · Connectivity · Modern UI · AI-assisted Development
+**Upcoming showcases:** Embedded Platform · Cloud-Connected Systems · Connectivity · Modern UI
 
 Each showcase covers problem statement, architecture decisions, design trade-offs, implementation, testing, and documentation.
 
