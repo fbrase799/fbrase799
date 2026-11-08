@@ -37,26 +37,6 @@ The profile README and dedicated showcase pages on GitHub are the primary refere
 
 <<<
 
-== Vehicle Configurator
-
-A live, multi-step vehicle configuration application combining a Java/Spring Boot REST backend with a Vue-based interactive frontend.
-
-image::vehicle-configurator.png[Vehicle configurator with interactive 3D car preview,pdfwidth=88%,align=center]
-
-*Architecture & technologies*
-
-* *Frontend:* Vue 3, Vite, Three.js — interactive 3D vehicle preview and real-time price updates
-* *Backend:* Java 25, Spring Boot 4, JPA/Hibernate — REST API, server-side pricing and order submission
-* *Persistence:* SQLite embedded in the backend
-* *Deployment:* Docker Compose and Azure Container Apps with separate frontend and backend containers
-* *Delivery:* GitHub Actions CI/CD with OIDC-based Azure deployment
-
-*Engineering focus:* Full-stack software architecture, separation of concerns, reproducible container deployment and automated delivery.
-
-*Links:* https://frontend.thankfulcliff-8b06d191.westeurope.azurecontainerapps.io/[Live demonstration] | https://github.com/fbrase799/vehicle_configurator[Source code] | https://github.com/fbrase799/fbrase799/blob/main/showcase_vehicle_configurator.md[Technical details]
-
-<<<
-
 == Engineering Knowledge Assistant
 
 An engineering Q&A demonstrator that compares a curated local knowledge base with current public web information. LangGraph orchestrates retrieval, web search and LLM synthesis within explicit execution limits.
@@ -74,3 +54,23 @@ image::knowledge-assistant.png[Engineering Knowledge Assistant showing a hybrid 
 *Engineering focus:* Hybrid RAG and web-based Q&A, traceable execution, explicit request budgets, and source validation.
 
 *Links:* https://frontend.livelyfield-9bf75542.westeurope.azurecontainerapps.io/[Live demonstration] | https://github.com/fbrase799/engineering_knowledge_assistant[Source code] | https://github.com/fbrase799/fbrase799/blob/main/showcase_engineering_knowledge_assistant.md[Technical details]
+
+<<<
+
+== Vehicle Configurator
+
+A live, multi-step vehicle configuration application combining a Java/Spring Boot REST backend with a Vue-based interactive frontend.
+
+image::vehicle-configurator.png[Vehicle configurator with interactive 3D car preview,pdfwidth=88%,align=center]
+
+*Architecture & technologies*
+
+* *Frontend:* Vue 3, Vite, Three.js — interactive 3D vehicle preview and real-time price updates
+* *Backend:* Java 25, Spring Boot 4, JPA/Hibernate — REST API, server-side pricing and order submission
+* *Persistence:* SQLite embedded in the backend
+* *Deployment:* Docker Compose and Azure Container Apps with separate frontend and backend containers
+* *Delivery:* GitHub Actions CI/CD with OIDC-based Azure deployment
+
+*Engineering focus:* Full-stack software architecture, separation of concerns, reproducible container deployment and automated delivery.
+
+*Links:* https://frontend.thankfulcliff-8b06d191.westeurope.azurecontainerapps.io/[Live demonstration] | https://github.com/fbrase799/vehicle_configurator[Source code] | https://github.com/fbrase799/fbrase799/blob/main/showcase_vehicle_configurator.md[Technical details]
