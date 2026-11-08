@@ -1,0 +1,32 @@
+extends: default
+font:
+  catalog:
+    merge: true
+    Calibri:
+      normal: Calibri.ttf
+      bold: Calibrib.ttf
+      italic: Calibrii.ttf
+      bold_italic: Calibriz.ttf
+base:
+  font_family: Calibri
+  font_size: 12
+heading:
+  font_family: Calibri
+toc:
+  break-after: auto
+  font_family: Calibri
+title-page:
+  background-color: #F5F5F5
+  font_family: Calibri
+abstract:
+  font_family: Calibri
+sidebar:
+  font_family: Calibri
+caption:
+  font_family: Calibri
+code:
+  font_size: 10
+footer:
+  font_family: Calibri
+header:
+  font_family: Calibri
