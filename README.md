@@ -12,7 +12,7 @@ Each area has a short page with how I think about it — including how **connect
 
 | | |
 |---|---|
-| **[AI Engineering](./expertise/ai-engineering.md)** | Spec-Driven Design · LangChain · LangGraph · RAG · Python · GitHub Copilot · Cursor · Claude Code |
+| **[AI Engineering](./expertise/ai-engineering.md)** | Spec-Driven Design · LangChain · LangGraph · RAG · Ollama · Python · GitHub Copilot · Cursor · Claude Code |
 | **[Software Architecture](./expertise/software-architecture.md)** | System Design · Distributed Systems · Embedded Architectures · Cloud-Connected Systems · Technical Leadership |
 | **[Embedded Software](./expertise/embedded-software.md)** | Modern C++ (C++17/20/23) · C · Rust · Embedded Linux · Yocto · Zephyr RTOS · Bare-Metal · CAN |
 | **[Application Software](./expertise/application-software.md)** | Java · Spring Boot · Go · REST · GraphQL · MQTT · WebSockets · React · Qt / QML · Flutter · GTK4 |
